@@ -10,8 +10,7 @@
     "url": "https://github.com/jossmac/react-images.git"
   },
   "dependencies": {
-    "aphrodite": "^0.5.0",
-    "react-addons-css-transition-group": "^0.14.8"
+    "aphrodite": "^0.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
@@ -22,11 +21,12 @@
     "gulp": "^3.9.0",
     "react-component-gulp-tasks": "^0.7.0",
     "react-dom": "^0.14.8",
-    "react": "^0.14.8"
+    "react": "^15"
   },
   "peerDependencies": {
     "react-dom": "^0.14 || ^15.0",
-    "react": "^0.14 || ^15.0"
+    "react": "^0.14 || ^15.0",
+    "react-addons-css-transition-group": "^15"
   },
   "browserify-shim": {
     "react": "global:React"
